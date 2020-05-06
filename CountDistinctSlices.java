@@ -19,7 +19,6 @@ class Solution {
             if(start <= end && start < A.length) seen[A[start++]] = false;
             
         }
-        
         return count;
     }
 }
