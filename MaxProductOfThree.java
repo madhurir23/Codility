@@ -2,17 +2,14 @@
  MaxProductOfThree
   Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R). 
 */
+import java.util.*;
+
 class Solution {
-    public int solution(int N) {
-        int min = Integer.MAX_VALUE;
-        int sqrtN = (int)Math.sqrt(N);
+    public int solution(int[] A) {
+        Arrays.sort(A);
+        int length = A.length;
+        return Math.max(A[0] * A[1] * A[length-1], 
+            A[length-3] * A[length-2] * A[length-1]);
         
-        for (int i = 1; i <= sqrtN; i++) {
-            if (N % i == 0) {
-                min = Math.min(min, 2 * (i + (N/i)));
-            }
-        }
-        
-        return min;
     }
 }
