@@ -1,0 +1,13 @@
+/*
+Count minimal number of jumps from position X to Y. 
+*/
+class Solution {
+    public int solution(int X, int Y, int D) {
+        int dist = Y - X;
+        int n = dist / D;
+        
+        if (dist % D != 0) n++;
+        
+        return n;
+    }
+}
