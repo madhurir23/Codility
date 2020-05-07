@@ -1,7 +1,3 @@
-Java code for all the tasks in https://app.codility.com/programmers/lessons/
-
-All solutions in the repo have scored 100% on codility
-
 | Problem Theme | Problem       | Solution    |
 | :------------- | :------------- | :------------- |
 | Iterations    | [Binary Gap](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/)    | [BinaryGap.java](BinaryGap.java)  |
@@ -12,6 +8,4 @@ All solutions in the repo have scored 100% on codility
 | Time Complexity | [TapeEquilibrium](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/)  | [TapeEquilibrium.java]([TapeEquilibrium.java)  |
 
 
-Badges:
-
-palladium2020 - https://app.codility.com/cert/after/cert6XCUZZ-AT2W6WC9HQ58YFMB/
+All solutions in the repo have scored 100% on codility
