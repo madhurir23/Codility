@@ -12,6 +12,7 @@ class Solution {
             int max = B[i];
             int j = i+1;
             while (j < N && A[j] <= max) {
+                // Choose the shortest segment
                 max = Math.min(max, B[j]);
                 j++;
             }
