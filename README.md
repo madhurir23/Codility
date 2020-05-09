@@ -7,5 +7,10 @@
 | Time Complexity | [Perm Missing Elem](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/) | [PermMissingElem](PermMissingElem.java)  |
 | Time Complexity | [TapeEquilibrium](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/)  | [TapeEquilibrium.java]([TapeEquilibrium.java)  |
 
+All solutions in the repo have scored 100% on codility.
 
-All solutions in the repo have scored 100% on codility
+
+
+Badges:
+
+Palladium 2020 Challenge(golden award): https://app.codility.com/cert/view/cert6XCUZZ-AT2W6WC9HQ58YFMB/
